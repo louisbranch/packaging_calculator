@@ -11,4 +11,12 @@ describe("NuPack Calculator", function () {
 
   });
 
+  describe(".peopleCost()", function () {
+
+    it("adds 1.2% for each person", function () {
+      assert.equal(1075.20, calc.peopleCost(1050, 2));
+    });
+
+  });
+
 });
