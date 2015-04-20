@@ -41,3 +41,11 @@ books
 Output 1: $1591.58
 Output 2: $6199.81
 Output 3: $13707.63
+
+
+## How to Test
+
+```
+npm install -g mocha
+mocha
+```
